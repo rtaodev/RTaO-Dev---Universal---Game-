@@ -395,4 +395,5 @@ warn("FPS Booster Loaded!")
 game.DescendantAdded:Connect(function(value)
     wait(_G.LoadedWait or 1)
     CheckIfBad(value)
+
 end)
