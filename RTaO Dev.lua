@@ -310,7 +310,7 @@ coroutine.wrap(pcall)(function()
                 setfpscap(tonumber(_G.Settings["FPS Cap"] or (_G.Settings.Other and _G.Settings.Other["FPS Cap"])))
                 if _G.SendNotifications then
                     StarterGui:SetCore("SendNotification", {
-                        Title = "discord.gg/rips",
+                        Title = "dsc.gg/EH23mXVqce",
                         Text = "FPS Capped to " .. tostring(_G.Settings["FPS Cap"] or (_G.Settings.Other and _G.Settings.Other["FPS Cap"])),
                         Duration = 5,
                         Button1 = "Okay"
@@ -395,5 +395,4 @@ warn("FPS Booster Loaded!")
 game.DescendantAdded:Connect(function(value)
     wait(_G.LoadedWait or 1)
     CheckIfBad(value)
-
 end)
